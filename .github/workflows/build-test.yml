@@ -25,7 +25,6 @@ jobs:
         shell: bash -l {0}
         run: |
           conda activate pystokes
-          python -m pip install --no-use-pep517 pystokes
       - name: test-pystokes
         shell: bash -l {0}
         run: |
