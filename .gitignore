@@ -1,0 +1,67 @@
+*.pyc
+*.so
+*.ipynb_checkpoints
+*~
+*.swp
+*.mat
+*.swo
+pystokes/*.html
+pystokes/*.c
+pystokes/*.so
+pystokes/*.cpp
+*.c
+*egg-info*
+dist
+build/
+.DS_Store
+*.npy
+
+
+## Build tool auxiliary files:
+*.fdb_latexmk
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync
+*.alg
+*.loa
+# amsthm
+*.thm
+# beamer
+*.nav
+*.snm
+*.vrb
+# hyperref
+*.brf
+# makeidx
+*.idx
+*.ilg
+*.ind
+*.ist
+# minitoc
+*.maf
+*.mtc
+*.mtc0
+*.pyg
+*.tdo
+*.vtk
+*.vtu
+*.pvsm
+*.npz
+*.pvd
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.dvi
+*.bbl
+*.bcf
+*.blg
+*-blx.aux
+*-blx.bib
+*.run.xml
+build/ 
+examples/arrestedClusters
+examples/crystallization
