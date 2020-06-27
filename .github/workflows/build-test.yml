@@ -5,13 +5,13 @@ on: [push, pull_request]
 jobs:
 
   build-and-test:
-    name: Ex1 (${{ matrix.python-version }}, ${{ matrix.os }})
+    name: buildTest (${{ matrix.python-version }}, ${{ matrix.os }})
     runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: false
       matrix:
         os: ["ubuntu-latest", "macos-latest", "windows-latest"]
-        python-version: ["3.7", "2.7"]
+        python-version: ["3.7"]
     steps:
       - uses: actions/checkout@v2
     
@@ -25,6 +25,7 @@ jobs:
         shell: bash -l {0}
         run: |
           conda activate pystokes
+          pip install pystokes
       - name: test-pystokes
         shell: bash -l {0}
         run: |
