@@ -25,6 +25,7 @@ jobs:
         shell: bash -l {0}
         run: |
           conda activate pystokes
+          pip install wheel
           pip install pystokes
       - name: test-pystokes
         shell: bash -l {0}
