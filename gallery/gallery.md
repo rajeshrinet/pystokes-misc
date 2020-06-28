@@ -6,9 +6,32 @@ Reference: [A Bolitho, R Singh, R Adhikari, Physical Review Letters 124 (8), 088
 
 ![Image](https://raw.githubusercontent.com/rajeshrinet/pystokes-misc/master/gallery/2_volvox.gif)
 
+Our work shows that the oscillatory dynamics of a pair of active particles near
+a boundary, best exemplified by the fascinating dance of the green algae
+Volvox, can be understood in terms of Hamiltonian mechanics, even though the
+system does not conserve energy. At the heart of this dance, which is a limit
+cycle of a dynamical system, is a Hamiltonian, damped  by gravitational torque
+and driven by fluid flow reflected off the boundary. 
 
-![Image](https://raw.githubusercontent.com/rajeshrinet/pystokes-misc/master/gallery/4_volvox_wall.gif)
-![Image](https://raw.githubusercontent.com/rajeshrinet/pystokes-misc/master/gallery/4_volvox_int.gif)
+![Image](https://raw.githubusercontent.com/rajeshrinet/pystokes-misc/master/gallery/volvox_summary.png)
+
+For small oscillations,
+this Hamiltonian is identical to that of a pendulum and, like a metronome, sets
+the beat of the dance. For large oscillations, the beat can be evaluated with
+the same mathematics as for a pendulum, and when damping and driving are taken
+into account, agrees very well with experiment. This establishes without doubt
+that the enigmatic Volvox dance, rather than being an evolutionarily selected
+biological phenomenon, is a physical phenomenon that can be understood fully
+in terms of the familiar concepts of mechanics. Our study highlights the
+significance of fluid flows and their distortion by boundaries in active matter
+and shows that the applicability of Hamiltonian mechanics extends beyonds its
+intended domain of energy-conserving systems to time-irreversible, dissipative,
+active systems. 
+
+
+
+![Image](https://raw.githubusercontent.com/rajeshrinet/pystokes-misc/master/gallery/4_volvox.gif)
+
 
 
 <br/><br/><br/><br/>
@@ -38,6 +61,39 @@ Reference: [S Thutupalli, D Geyer, R Singh, R Adhikari, H Stone Proceedings of t
 
 ## Crystallization at a plane no-slip surface
 Reference: [R Singh, R Adhikari, Physical Review Letters 117, 228002 (2016)](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.117.228002)
+
+![Image](https://raw.githubusercontent.com/rajeshrinet/pystokes-misc/master/gallery/popSumFig.jpg)
+
+It is well-known that crystallization of colloids approximating hard spheres
+is due, paradoxically, to the higher entropy of the ordered crystalline state
+compared to that of  the disordered liquid state. Out of equilibrium, no such general
+principle is available to rationalize crystallization. Here, we identify a new non-equilibrium
+mechanism, associated with entropy production rather than entropy gain, which drives
+crystallization of active colloids near plane walls. This is a new mechanism of spontaneous
+symmetry breaking, with no analogue in equilibrium. The properties of the non-equilibrium
+crystal, consequently, show remarkable exceptions: strong dissipation suppresses propagating
+phonon-modes and turns them diffusive, yet, activity enhances the elastic moduli of the crystal.
+An active crystal, then, has reduced phase fluctuations and is less susceptible to the destruction
+of long-ranged order, even though it is two-dimensional. The investigation of topological
+phase transitions [4–8] in these systems presents, therefore, exciting avenues for
+future research. There is an excellent qualitative and quantitative match
+ of our results with two recent experiments [1, 2]. 
+
+[1] J. Palacci, S. Sacanna, A. P. Steinberg, D. J. Pine, and P. M. Chaikin, Science 339, 936 (2013).
+
+[2] A. P. Petroff, X.-L. Wu, and A. Libchaber, Phys. Rev. Lett. 114, 158102 (2015).
+
+[3] M. E. Cates and J. Tailleur, Annu. Rev. Condens. Mat. Phys. 6, 219 (2015).
+
+[4] J. M. Kosterlitz and D. J. Thouless, J. Phys. C 6, 1181 (1973).
+
+[5]  B. I. Halperin and D. R. Nelson, Phys. Rev. Lett. 41, 121 (1978).
+
+[6]  D. R. Nelson and B. I. Halperin, Phys. Rev. B 19, 2457 (1979).
+
+[7]  A. P. Young, Phys. Rev. B 19, 1855 (1979).
+
+[8] P. M. Chaikin and T. C. Lubensky, Principles of condensed matter physics, Vol. 1 (Cambridge Univ Press, 2000).
 
 ### Kinetics of crystallization
 ![Image](https://raw.githubusercontent.com/rajeshrinet/pystokes-misc/master/gallery/crystallization_kinetics.gif)
@@ -92,3 +148,4 @@ Reference: [R Singh, R Adhikari, Journal of Physics Communications 2, 025025 (20
 ###  Dynamics of 1024 contractile and extensile active colloids in a spherical confinement 
 ![Image](https://raw.githubusercontent.com/rajeshrinet/pystokes-misc/master/gallery/contractile_sphConfine.gif)
 ![Image](https://raw.githubusercontent.com/rajeshrinet/pystokes-misc/master/gallery/extensile_sphConfine.gif)
+
