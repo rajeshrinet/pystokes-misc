@@ -1,3 +1,5 @@
+This gallery contains a non-exhaustive list of research outputs using PyStokes. 
+
 ## Periodic orbits of active particles
 Reference: [A Bolitho, R Singh, R Adhikari, Physical Review Letters 124 (8), 088003 (2020)](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.124.088003)
 
@@ -36,28 +38,7 @@ active systems.
 
 <br/><br/><br/><br/>
 
-## Flow-induced phase separation
-Reference: [S Thutupalli, D Geyer, R Singh, R Adhikari, H Stone Proceedings of the National Academy of Sciences 115, 5403 (2018)](https://www.pnas.org/content/115/21/5403.short)
 
-
-### Plane surface
-
-![Image](https://raw.githubusercontent.com/rajeshrinet/pystokes-misc/master/gallery/FIPS_wall.gif)
-
-<br/><br/>
-
-![Image](https://raw.githubusercontent.com/rajeshrinet/pystokes-misc/master/gallery/FIPS_interface.gif)
-
-
-### Hele-Shaw cell
-
-![Image](https://raw.githubusercontent.com/rajeshrinet/pystokes-misc/master/gallery/FIPS_HeleShaw_2b.gif)
-
-<br/><br/>
-
-![Image](https://raw.githubusercontent.com/rajeshrinet/pystokes-misc/master/gallery/FIPS_HeleShaw_8b.gif)
-
-<br/><br/><br/><br/>
 
 ## Crystallization at a plane no-slip surface
 Reference: [R Singh, R Adhikari, Physical Review Letters 117, 228002 (2016)](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.117.228002)
@@ -121,6 +102,30 @@ Reference: [D Sarkar, R Singh, A Som, CK Manju, M Ganayee, R Adhikari, T Pradeep
 
 <br/><br/><br/><br/>
 
+
+## Flow-induced phase separation
+Reference: [S Thutupalli, D Geyer, R Singh, R Adhikari, H Stone Proceedings of the National Academy of Sciences 115, 5403 (2018)](https://www.pnas.org/content/115/21/5403.short)
+
+
+### Plane surface
+
+![Image](https://raw.githubusercontent.com/rajeshrinet/pystokes-misc/master/gallery/FIPS_wall.gif)
+
+<br/><br/>
+
+![Image](https://raw.githubusercontent.com/rajeshrinet/pystokes-misc/master/gallery/FIPS_interface.gif)
+
+
+### Hele-Shaw cell
+
+![Image](https://raw.githubusercontent.com/rajeshrinet/pystokes-misc/master/gallery/FIPS_HeleShaw_2b.gif)
+
+<br/><br/>
+
+![Image](https://raw.githubusercontent.com/rajeshrinet/pystokes-misc/master/gallery/FIPS_HeleShaw_8b.gif)
+
+<br/><br/><br/><br/>
+
 ## Autophoretic arrest of flow-induced phase separation 
 Reference:[R Singh, R Adhikari, ME Cates, The Journal of Chemical Physics 151, 044901 (2019)](https://aip.scitation.org/doi/abs/10.1063/1.5090179)
 
@@ -148,4 +153,3 @@ Reference: [R Singh, R Adhikari, Journal of Physics Communications 2, 025025 (20
 ###  Dynamics of 1024 contractile and extensile active colloids in a spherical confinement 
 ![Image](https://raw.githubusercontent.com/rajeshrinet/pystokes-misc/master/gallery/contractile_sphConfine.gif)
 ![Image](https://raw.githubusercontent.com/rajeshrinet/pystokes-misc/master/gallery/extensile_sphConfine.gif)
-
