@@ -4,8 +4,8 @@ on: [push, pull_request]
 
 jobs:
 
-  pyross_build-and-test:
-    name: buildTest (${{ matrix.python-version }}, ${{ matrix.os }})
+  build-and-test:
+    name: PyRoss_buildTest (${{ matrix.python-version }}, ${{ matrix.os }})
     runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: false
