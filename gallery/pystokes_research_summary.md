@@ -1,4 +1,4 @@
-This gallery contains a non-exhaustive list of research outputs using PyStokes. 
+This gallery contains a selected list of research done using PyStokes. 
 
 ## Periodic orbits of active particles
 Reference: [A Bolitho, R Singh, R Adhikari, Physical Review Letters 124 (8), 088003 (2020)](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.124.088003)
@@ -26,7 +26,7 @@ that the enigmatic Volvox dance, rather than being an evolutionarily selected
 biological phenomenon, is a physical phenomenon that can be understood fully
 in terms of the familiar concepts of mechanics. Our study highlights the
 significance of fluid flows and their distortion by boundaries in active matter
-and shows that the applicability of Hamiltonian mechanics extends beyonds its
+and shows that the applicability of Hamiltonian mechanics extends beyond its
 intended domain of energy-conserving systems to time-irreversible, dissipative,
 active systems. 
 
@@ -92,13 +92,6 @@ future research. There is an excellent qualitative and quantitative match
 ![Image](https://raw.githubusercontent.com/rajeshrinet/pystokes-misc/master/gallery/crystallization_crystallites.gif)
 
 
-<br/><br/><br/><br/>
-
-## Electrohydrodynamic flows
-Reference: [D Sarkar, R Singh, A Som, CK Manju, M Ganayee, R Adhikari, T Pradeep, The Journal of Physical Chemistry C 122, 17777 (2018)](https://pubs.acs.org/doi/abs/10.1021/acs.jpcc.8b04169)
-
-![Image](https://raw.githubusercontent.com/rajeshrinet/pystokes-misc/master/gallery/electrohydrodynamics_2.4X_speed.gif)
-
 
 <br/><br/><br/><br/>
 
@@ -106,6 +99,7 @@ Reference: [D Sarkar, R Singh, A Som, CK Manju, M Ganayee, R Adhikari, T Pradeep
 ## Flow-induced phase separation
 Reference: [S Thutupalli, D Geyer, R Singh, R Adhikari, H Stone Proceedings of the National Academy of Sciences 115, 5403 (2018)](https://www.pnas.org/content/115/21/5403.short)
 
+Active particles, including swimming microorganisms, autophoretic colloids, and droplets, are known to self-organize into ordered structures at fluid–solid boundaries. The entrainment of particles in the attractive parts of their spontaneous flows has been postulated as a possible mechanism underlying this phenomenon. Here, combining experiments, theory, and numerical simulations, we demonstrate the validity of this flow-induced ordering mechanism in a suspension of active emulsion droplets. We show that the mechanism can be controlled, with a variety of resultant ordered structures, by simply altering hydrodynamic boundary conditions. Thus, for flow in Hele–Shaw cells, metastable lines or stable traveling bands can be obtained by varying the cell height. Similarly, for flow bounded by a plane, dynamic crystallites are formed. At a no-slip wall, the crystallites are characterized by a continuous out-of-plane flux of particles that circulate and re-enter at the crystallite edges, thereby stabilizing them. At an interface where the tangential stress vanishes, the crystallites are strictly 2D, with no out-of-plane flux. We rationalize these experimental results by calculating, in each case, the slow viscous flow produced by the droplets and the long-ranged, many-body active forces and torques between them. The results of numerical simulations of motion under the action of the active forces and torques are in excellent agreement with experiments. Our work elucidates the mechanism of flow-induced phase separation in active fluids, particularly active colloidal suspensions, and demonstrates its control by boundaries, suggesting routes to geometric and topological phenomena in an active matter.
 
 ### Plane surface
 
@@ -124,12 +118,22 @@ Reference: [S Thutupalli, D Geyer, R Singh, R Adhikari, H Stone Proceedings of t
 
 ![Image](https://raw.githubusercontent.com/rajeshrinet/pystokes-misc/master/gallery/FIPS_HeleShaw_8b.gif)
 
+
+
+
+
 <br/><br/><br/><br/>
 
 ## Autophoretic arrest of flow-induced phase separation 
 Reference:[R Singh, R Adhikari, ME Cates, The Journal of Chemical Physics 151, 044901 (2019)](https://aip.scitation.org/doi/abs/10.1063/1.5090179)
 
+Recent experiments have reported the arrest of phase separation in a suspension of active colloids at a plane wall. Attractive hydrodynamic forces are known to cause the aggregation of active colloids at a plane wall. In this talk, I will describe the role of chemical interactions in modifying this flow-induced phase separation of active colloids at a plane wall. We derive chemohydrodynamic forces and torques on colloids in the limit of rapid diffusion and slow viscous flow. We find that near a plane wall, these forces can be expressed as a gradient of a non-equilibrium potential. This potential can be varied from being purely repulsive to purely attractive by tuning the chemical activity of the colloids. The arrest of phase separation can then be understood from the emergence of a barrier in the effective potential.
+
 ![Image](https://raw.githubusercontent.com/rajeshrinet/pystokes-misc/master/gallery/arrested-clusters.gif)
+
+
+
+
 
 <br/><br/><br/><br/>
 
@@ -153,3 +157,14 @@ Reference: [R Singh, R Adhikari, Journal of Physics Communications 2, 025025 (20
 ###  Dynamics of 1024 contractile and extensile active colloids in a spherical confinement 
 ![Image](https://raw.githubusercontent.com/rajeshrinet/pystokes-misc/master/gallery/contractile_sphConfine.gif)
 ![Image](https://raw.githubusercontent.com/rajeshrinet/pystokes-misc/master/gallery/extensile_sphConfine.gif)
+
+
+
+<br/><br/><br/><br/>
+
+## Electrohydrodynamic flows
+Reference: [D Sarkar, R Singh, A Som, CK Manju, M Ganayee, R Adhikari, T Pradeep, The Journal of Physical Chemistry C 122, 17777 (2018)](https://pubs.acs.org/doi/abs/10.1021/acs.jpcc.8b04169)
+
+![Image](https://raw.githubusercontent.com/rajeshrinet/pystokes-misc/master/gallery/electrohydrodynamics_2.4X_speed.gif)
+
+All the previous cases, were for collective dynamics of active particles. We now consider an example of a driven particle. Unlike, active colloids, passive colloids move under the effect of external potentials. Here we study the motion of such particles driven by an electrohydrodynamic flow in a rectangular geometry. Electrohydrodynamics is the study of the effects of electrostatic forces on fluid flow. Electrohydrodynamic flows result from the motion of free charges on the surface of a fluid by application of a tangential electric field along the container. In this case, free charged ions are sprayed using electrospray on the air-water interface of a rectangular container with an electrode, which provides tangential electric field. The spray from the cone deposits charges at the air-liquid interface which are then set into motion by the tangential electric field. Thus, formation of nanoparticle-nanosheet (NP-NS) is observed at the air water interface.
