@@ -4,7 +4,7 @@ on: [push, pull_request]
 
 jobs:
 
-  build-and-test:
+  pyross_build-and-test:
     name: buildTest (${{ matrix.python-version }}, ${{ matrix.os }})
     runs-on: ${{ matrix.os }}
     strategy:
