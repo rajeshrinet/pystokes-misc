@@ -4,7 +4,7 @@
 
 ![Image](https://raw.githubusercontent.com/rajeshrinet/pystokes-misc/master/gallery/figs/thisPyIm.png)
 
-PyStokes is a Python library for studying phoretic and hydrodynamic interactions between spherical particles when these interactions can be described by the solutions of, respectively, the Laplace and Stokes equations. The library has been specifically designed for studying these interactions in suspensions of active particles, which are distinguished by their ability to produce flow, and thus motion, in the absence of external forces or torques. Such particles are endowed with a mechanism to produce hydrodynamic flow in a thin interfacial layer, which may be due to the motion of cilia, as in microorganisms (Brennen & Winet, 1977) or osmotic flows of various kinds in response to spontaneously generated gradients of phoretic fields (Ebbens & Howse, 2010). The latter, often called autophoresis, is a generalisation of wellknown phoretic phenomena including, inter alia, electrophoresis (electric field), diffusiophoresis (chemical field) and thermophoresis (temperature field) that occur in response to externally imposed gradients of phoretic fields (Anderson, 1989).
+PyStokes is a Python library for studying phoretic and hydrodynamic interactions between spherical particles. In particular, the library has been specifically designed for studying these interactions in suspensions of active particles. Such particles are distinguished by their ability to produce flow, and thus motion, in the absence of external forces or torques. Active particles are endowed with a mechanism to produce hydrodynamic flow in a thin interfacial layer, which may be due to the motion of cilia, as in microorganisms (Brennen & Winet, 1977) or osmotic flows of various kinds in response to spontaneously generated gradients of phoretic fields (Ebbens & Howse, 2010). The latter, often called autophoresis as we describe in more detail below. 
 
 
 
@@ -21,16 +21,16 @@ Examples of phoresis (phoretic field) are electrophoresis (electric field), diff
 
 * **What is autophoretic transport**?  The autophoretic particles self-propel due to a non-equilibrium process, such as chemical reactions on their surface. The phrase auto-phoresis is used interchangeably with self-phoresis. 
 
-* **What is self-diffusiophoretic motion of active particles** Active particles are distinguished by the fact that the slip velocity does not result from an externally imposed field, but is spontaneously generated  in response to gradients of phoretic fields
+* **What is self-diffusiophoretic motion of active particles** Active particles are distinguished by the fact that the slip velocity does not result from an externally imposed field, but is spontaneously generated  in response to gradients of phoretic fields. A particle is “active” if it creates the phoretic field itself (for example, by a built-in chemical asymmetry on its surface), and the resulting
+phenomena is called self-phoresis
 
 ![Image](https://raw.githubusercontent.com/rajeshrinet/pystokes-misc/master/gallery/figs/self-diffusiophoresis.jpg)
 
 ## Hydrodynamic interactions
 
- 
+* **What equation does PyStokes solve**?  PyStokes allows to compute phoretic and/or hydrodynamic interactions in active colloidal suspensions, when these interactions can be described by the solutions of, respectively, the Laplace and Stokes equations. The PyStokes library can also compute hydrodynamically correlated Brownian motion. Thus it allows the study of the interplay between passive, active, and Brownian contributions to motion.
 
-PyStokes allows to compute phoretic and/or hydrodynamic interactions in active colloidal suspensions. The PyStokes library can also compute hydrodynamically correlated Brownian motion, and thus, allows the study of the interplay between passive, active, and Brownian contributions to motion.
-
+* **Does PyStokes resolve fluid degrees of freedom?**  PyStokes allows freedom from grids, both in the bulk of the fluid and on the particle boundaries. PyStokes uses analytical solutions for the boundary integral equation of Stokes flow which reduces the dimensionality of the problem from a three-dimensional one in volume $V$ to a two-dimensional one on surface $S$ of the particles.
 
 
 
@@ -87,7 +87,6 @@ Long test of example notebooks
 
 ## Reading
 
-```
 * [Hydrodynamic and phoretic interactions of active particles in Python](https://arxiv.org/abs/1910.00909), Rajesh Singh and R. Adhikari, arXiv:1910.00909, 2019. *(Please cite this paper if you use PyStokes in your research)*.
 
 * [Competing phoretic and hydrodynamic interactions in autophoretic colloidal suspensions](https://aip.scitation.org/doi/full/10.1063/1.5090179), Rajesh Singh, R. Adhikari, and M. E. Cates, **The Journal of Chemical Physics** 151, 044901 (2019)
@@ -98,4 +97,3 @@ Long test of example notebooks
 * [Flow-induced phase separation of active particles is controlled by boundary conditions](https://www.pnas.org/content/115/21/5403), Shashi Thutupalli, Delphine Geyer, Rajesh Singh, R. Adhikari, and Howard A. Stone, **Proceedings of the National Academy of Sciences**, 115, 5403 (2018)  
 
 * [Universal hydrodynamic mechanisms for crystallization in active colloidal suspensions](https://doi.org/10.1103/PhysRevLett.117.228002), Rajesh Singh and R. Adhikari,  **Physical Review Letters**, 117, 228002 (2016)
-```
