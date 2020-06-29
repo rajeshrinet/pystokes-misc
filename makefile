@@ -3,34 +3,32 @@ path=examples
 recursive=True
 
 make:
-	@echo Installing pyross...
+	@echo Installing pystokes...
 	${PYTHON} setup.py install
-	@echo adding githook...
 
 clean-local:
 	@echo removing local compiled files
-	rm pyross/*.c pyross/*.html pyross/*.cpp
+	rm pystokes/*.c pystokes/*.html pystokes/*.cpp
 
 clean:
 	@echo removing all compiled files
 	${PYTHON} setup.py clean
-	rm pyross/*.c pyross/*.html pyross/*.cpp
-	
+	rm pystokes/*.c pystokes/*.html
+
 env:
 	@echo creating conda environment...
 	conda env create --file environment.yml
-	# conda activate pyross
-	@echo use make to install pyross
+	# conda activate pystokes
+	@echo use make to install pystokes
 
 test:
-	@echo testing pyross...
-	cd tests && python quick_test.py
+	@echo testing pystokes...
+	cd tests && python shortTests.py
 
 nbtest:
 	@echo testing example notebooks...
 	@echo test $(path)
-	cd tests && python notebook_test.py --path $(path) --recursive $(recursive)
-
+	cd tests && python notebookTests.py --path $(path) --recursive $(recursive)
 
 pypitest:
 	@echo testing pystokes...
@@ -44,4 +42,4 @@ pypi:
 
 cycov:
 	python setup.py build_ext --force --inplace --define CYTHON_TRACE
-	pytest tests/quick_test.py --cov=./ --cov-report=xml
+	pytest tests/shortTests.py  --cov=./ --cov-report=xml
