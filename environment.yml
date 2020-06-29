@@ -1,12 +1,23 @@
-name: pystokes
+name: pyross
 channels:
   - conda-forge
 dependencies:
-  - python
+  - python=3.7
+  - cython
   - numpy
   - matplotlib
-  - cython
-  - scipy 
   - jupyter
+  - scipy
+  - nlopt
+  - pathos
+  - pip
+  - pytest 
+  - pytest-cov
+  - pandas
+  - sympy
   - ipython
   - nbconvert
+  - xlrd
+  - pip:
+    - cma
+    - git+https://github.com/kbarbary/nestle.git
