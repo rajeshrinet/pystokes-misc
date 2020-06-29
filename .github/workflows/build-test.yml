@@ -21,12 +21,12 @@ jobs:
          activate-environment: pyross
          environment-file: environment.yml
          python-version: ${{ matrix.python-version }}
-      - name: make-pystokes
+      - name: make-pyross
         shell: bash -l {0}
         run: |
-          conda activate pystokes
+          conda activate pyross
           make
-      - name: test-pystokes
+      - name: test-pyross
         shell: bash -l {0}
         run: |
           make test
