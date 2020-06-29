@@ -23,7 +23,7 @@ env:
 
 test:
 	@echo testing pystokes...
-	python test.py
+	cd tests && python shortTests.py
 
 nbtest:
 	@echo testing example notebooks...
