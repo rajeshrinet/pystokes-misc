@@ -28,5 +28,5 @@ jobs:
       - name: test-pystokes
         shell: bash -l {0}
         run: |
-          python test.py
+          python testPyStokes.py
 
