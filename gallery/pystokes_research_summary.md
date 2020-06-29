@@ -1,4 +1,5 @@
-This gallery contains a selected list of research done using PyStokes. 
+This gallery contains a selected list of research application of PyStokes. 
+
 
 ## Periodic orbits of active particles
 Reference: [A Bolitho, R Singh, R Adhikari, Physical Review Letters 124 (8), 088003 (2020)](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.124.088003)
@@ -15,7 +16,8 @@ system does not conserve energy. At the heart of this dance, which is a limit
 cycle of a dynamical system, is a Hamiltonian, damped  by gravitational torque
 and driven by fluid flow reflected off the boundary. 
 
-![Image](https://raw.githubusercontent.com/rajeshrinet/pystokes-misc/master/gallery/volvox_summary.png)
+<img src="https://raw.githubusercontent.com/rajeshrinet/pystokes-misc/master/gallery/volvox_summary.png" alt="drawing" width="800"/>
+
 
 For small oscillations,
 this Hamiltonian is identical to that of a pendulum and, like a metronome, sets
@@ -30,20 +32,18 @@ and shows that the applicability of Hamiltonian mechanics extends beyond its
 intended domain of energy-conserving systems to time-irreversible, dissipative,
 active systems. 
 
-
-
 ![Image](https://raw.githubusercontent.com/rajeshrinet/pystokes-misc/master/gallery/4_volvox.gif)
+
 
 
 
 <br/><br/><br/><br/>
 
-
-
 ## Crystallization at a plane no-slip surface
 Reference: [R Singh, R Adhikari, Physical Review Letters 117, 228002 (2016)](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.117.228002)
 
-![Image](https://raw.githubusercontent.com/rajeshrinet/pystokes-misc/master/gallery/popSumFig.jpg)
+<img src="https://raw.githubusercontent.com/rajeshrinet/pystokes-misc/master/gallery/popSumFig.jpg" alt="drawing" width="800"/>
+
 
 It is well-known that crystallization of colloids approximating hard spheres
 is due, paradoxically, to the higher entropy of the ordered crystalline state
@@ -74,7 +74,7 @@ future research. There is an excellent qualitative and quantitative match
 
 [7]  A. P. Young, Phys. Rev. B 19, 1855 (1979).
 
-[8] P. M. Chaikin and T. C. Lubensky, Principles of condensed matter physics, Vol. 1 (Cambridge Univ Press, 2000).
+[8] P. M. Chaikin and T. C. Lubensky, Principles of condensed matter physics, Vol. 1 (Cambridge University Press, 2000).
 
 ### Kinetics of crystallization
 ![Image](https://raw.githubusercontent.com/rajeshrinet/pystokes-misc/master/gallery/crystallization_kinetics.gif)
@@ -93,8 +93,8 @@ future research. There is an excellent qualitative and quantitative match
 
 
 
-<br/><br/><br/><br/>
 
+<br/><br/><br/><br/>
 
 ## Flow-induced phase separation
 Reference: [S Thutupalli, D Geyer, R Singh, R Adhikari, H Stone Proceedings of the National Academy of Sciences 115, 5403 (2018)](https://www.pnas.org/content/115/21/5403.short)
@@ -121,7 +121,6 @@ Active particles, including swimming microorganisms, autophoretic colloids, and 
 
 
 
-
 <br/><br/><br/><br/>
 
 ## Autophoretic arrest of flow-induced phase separation 
@@ -134,12 +133,13 @@ Recent experiments have reported the arrest of phase separation in a suspension 
 
 
 
-
 <br/><br/><br/><br/>
 
 ## Active particles in external potentials 
 
-### Non-equilibrium convective rolls of confined active particles
+The simplest system in which an interplay of non-uniform external fields, activity and Brownian motion can be studied is an active colloid confined in a three-dimensional harmonic potential. We consider two examples: (a) active particles in a single trap, and (b) active particles in a lattice of harmonic traps (optical lattice). 
+
+### Non-equilibrium convective rolls of confined active particles in a single harmonic trap
 
 Reference: [R Singh, S Ghose, R Adhikari, Journal of Statistical Mechanics: Theory and Experiment 2015 (6), P06017 (2015)](https://iopscience.iop.org/article/10.1088/1742-5468/2015/06/P06017/meta)
 
@@ -155,8 +155,13 @@ Reference: [R Singh, R Adhikari, Journal of Physics Communications 2, 025025 (20
 <br/><br/>
 
 ###  Dynamics of 1024 contractile and extensile active colloids in a spherical confinement 
+Reference: [R Singh, R Adhikari, Journal of Physics Communications 2, 025025 (2018)](https://iopscience.iop.org/article/10.1088/2399-6528/aaab0d/meta)
+
+In this examples we consider apolar particles confined in a sphere. We show that the dynamics is different for contractile and extensile particles respectively. 
+
 ![Image](https://raw.githubusercontent.com/rajeshrinet/pystokes-misc/master/gallery/contractile_sphConfine.gif)
 ![Image](https://raw.githubusercontent.com/rajeshrinet/pystokes-misc/master/gallery/extensile_sphConfine.gif)
+
 
 
 
@@ -167,4 +172,4 @@ Reference: [D Sarkar, R Singh, A Som, CK Manju, M Ganayee, R Adhikari, T Pradeep
 
 ![Image](https://raw.githubusercontent.com/rajeshrinet/pystokes-misc/master/gallery/electrohydrodynamics_2.4X_speed.gif)
 
-All the previous cases, were for collective dynamics of active particles. We now consider an example of a driven particle. Unlike, active colloids, passive colloids move under the effect of external potentials. Here we study the motion of such particles driven by an electrohydrodynamic flow in a rectangular geometry. Electrohydrodynamics is the study of the effects of electrostatic forces on fluid flow. Electrohydrodynamic flows result from the motion of free charges on the surface of a fluid by application of a tangential electric field along the container. In this case, free charged ions are sprayed using electrospray on the air-water interface of a rectangular container with an electrode, which provides tangential electric field. The spray from the cone deposits charges at the air-liquid interface which are then set into motion by the tangential electric field. Thus, formation of nanoparticle-nanosheet (NP-NS) is observed at the air water interface.
+In the above, we have presented several application of PyStokes library for studying the collective dynamics of active particles. We now consider an example of a self-assembly in a suspension of driven particle. Unlike, active colloids, passive colloids move under the effect of external potentials. Here we study the motion of such particles driven by an electrohydrodynamic flow in a rectangular geometry. Electrohydrodynamics is the study of the effects of electrostatic forces on fluid flow. Electrohydrodynamic flows result from the motion of free charges on the surface of a fluid by application of a tangential electric field along the container (Melcher and Taylor, Annu Rev Fluid Mech 1969). Here, free charged ions are sprayed using electrospray on the air-liquid interface of a rectangular container with an electrode, which provides tangential electric field. The spray from the cone deposits charges at the air-liquid interface which are then set into motion by the tangential electric field. Thus, formation of nanoparticle-nanosheet (NP-NS) is observed at the air-liquid interface.
