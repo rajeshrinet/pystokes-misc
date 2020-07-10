@@ -1,8 +1,9 @@
+![Image](https://raw.githubusercontent.com/rajeshrinet/pystokes-misc/master/gallery/figs/thisPyIm.png)
+
 ## Phoresis and Stokesian hydrodynamics
 
 [Phoretic interactions](#phoretic-interactions) | [Hydrodynamic interactions](#hydrodynamic-interactions) | [Installation](#installation) | [Reading](#reading) 
 
-![Image](https://raw.githubusercontent.com/rajeshrinet/pystokes-misc/master/gallery/figs/thisPyIm.png)
 
 PyStokes is a Python library for studying phoretic and hydrodynamic interactions between spherical particles. In particular, the library has been specifically designed for studying these interactions in suspensions of active particles. Such particles are distinguished by their ability to produce flow, and thus motion, in the absence of external forces or torques. Active particles are endowed with a mechanism to produce hydrodynamic flow in a thin interfacial layer, which may be due to the motion of cilia, as in microorganisms (Brennen & Winet, 1977) or osmotic flows of various kinds in response to spontaneously generated gradients of phoretic fields (Ebbens & Howse, 2010). The latter, often called autophoresis as we describe in more detail below. 
 
@@ -10,21 +11,20 @@ PyStokes is a Python library for studying phoretic and hydrodynamic interactions
 
 ## Phoretic interactions
 
-* **What is phoretic transport?** Quoting (JL Anderson, Ann Rev Fluid Mech (1989))
+Phoresis means motion of colloidal particles in response to interfacial forces.  Quoting (JL Anderson, Ann Rev Fluid Mech (1989))
 
-> Phoretic transport is defined as the movement of colloidal particles by
-> a field that interacts with the surface of each particle
+> Phoretic transport is defined as the movement of colloidal particles by a field that interacts with the surface of each particle
 
-Examples of phoresis (phoretic field) are electrophoresis (electric field), diffusiophoresis (concentration of chemical field), thermophoresis (temperature field) etc.  The phoretic motion of the colloid in this case is due to the externally imposed electric field. The phoretic transport results from an electrophoretic slip velocity on the surface of the particles as we now describe.
+* **What are examples phoresis?**  Examples of phoresis (phoretic field) are electrophoresis (electric field), diffusiophoresis (concentration of chemical field), thermophoresis (temperature field) etc.  The phoretic motion of the colloid in this case is due to the externally imposed electric field. The phoretic transport results from an electrophoretic slip velocity on the surface of the particles as we now describe.
 
 * **Electrophoresis: how does a neutral object (charged particle with negative counter-ions) propel under the effect of electric field?** Consider a particle with a charge q in a non-conducting fluid. Once an electric field E is applied, the colloid moves due to the body force qE acting on it. The motion also creates flow v, which decays as v ~1/r, where r is the distance from the colloid. On the other hand, if the fluid is electrolytic, then the flow decays as v ~ 1/r^3. Why?<br/>As described in the figure below, a charged particle in an electrolytic fluid is effectively neutral due to the cloud of counter-ions around it. Thus, there is no net body force and the colloid should not move! It does due to the fact that the counter-ions are mobile, which leads to a `slip` velocity of the surface of the particle. Solving the Stokes equation with this slip boundary condition gives v ~ 1/r^3.![Image](https://raw.githubusercontent.com/rajeshrinet/pystokes-misc/master/gallery/figs/electrophoresis.jpg)
 
-* **What is autophoretic transport**?  The autophoretic particles self-propel due to a non-equilibrium process, such as chemical reactions on their surface. The phrase auto-phoresis is used interchangeably with self-phoresis. 
-
-* **What is self-diffusiophoretic motion of active particles** Active particles are distinguished by the fact that the slip velocity does not result from an externally imposed field, but is spontaneously generated  in response to gradients of phoretic fields. A particle is “active” if it creates the phoretic field itself (for example, by a built-in chemical asymmetry on its surface), and the resulting
+* **What is self-diffusiophoretic motion of active particles**?  The autophoretic particles self-propel due to a non-equilibrium process, such as chemical reactions on their surface. The phrase auto-phoresis is used interchangeably with self-phoresis.    Active particles are distinguished by the fact that the slip velocity does not result from an externally imposed field, but is spontaneously generated  in response to gradients of phoretic fields. A particle is “active” if it creates the phoretic field itself (for example, by a built-in chemical asymmetry on its surface), and the resulting
 phenomena is called self-phoresis
 
 ![Image](https://raw.githubusercontent.com/rajeshrinet/pystokes-misc/master/gallery/figs/self-diffusiophoresis.jpg)
+
+* **What are phoretic interactions?** The phoretic field on the surface of the particles can be modified by the proximity of other particles. Briefly, the active slip on the surface of the particles is function of chemical fluxes on the surface of all the particles and distances between them. A complete theory of these interactions is available in J. Chem. Phys. 151, 044901 (2019). 
 
 ## Hydrodynamic interactions
 
@@ -97,3 +97,4 @@ Long test of example notebooks
 * [Flow-induced phase separation of active particles is controlled by boundary conditions](https://www.pnas.org/content/115/21/5403), Shashi Thutupalli, Delphine Geyer, Rajesh Singh, R. Adhikari, and Howard A. Stone, **Proceedings of the National Academy of Sciences**, 115, 5403 (2018)  
 
 * [Universal hydrodynamic mechanisms for crystallization in active colloidal suspensions](https://doi.org/10.1103/PhysRevLett.117.228002), Rajesh Singh and R. Adhikari,  **Physical Review Letters**, 117, 228002 (2016)
+
