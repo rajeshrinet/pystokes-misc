@@ -1,11 +1,11 @@
-name: build
+name: pip_install
 
 on: [push, pull_request]
 
 jobs:
 
   build-and-test:
-    name: pip_PyRoss_and_PyStokes (${{ matrix.os }})
+    name: PyRoss_and_PyStokes (${{ matrix.os }})
     runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: false
@@ -25,7 +25,7 @@ jobs:
         shell: bash -l {0}
         run: |
           conda activate pystokes
-      - name: test-pystokes
+      - name: test-installation
         shell: bash -l {0}
         run: |
           python testPyRoss.py
