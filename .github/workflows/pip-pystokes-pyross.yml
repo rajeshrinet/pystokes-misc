@@ -5,7 +5,7 @@ on: [push, pull_request]
 jobs:
 
   build-and-test:
-    name: PyRoss_build (${{ matrix.os }})
+    name: pip_PyRoss_and_PyStokes (${{ matrix.os }})
     runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: false
@@ -21,12 +21,13 @@ jobs:
          activate-environment: pystokes
          environment-file: environment.yml
          python-version: ${{ matrix.python-version }}
-      - name: activate-pyross
+      - name: activate-pystokes
         shell: bash -l {0}
         run: |
           conda activate pystokes
-      - name: test-pyross
+      - name: test-pystokes
         shell: bash -l {0}
         run: |
           python testPyRoss.py
+          python testPyStokes.py
 
