@@ -1,4 +1,7 @@
 ## pystokes-misc 
 
-This repository contains some supplemental files to the [PyStokes codebase](https://github.com/rajeshrinet/pystokes). These include .gif files of various published work. These are showcased in the [PyStokes gallery](https://github.com/rajeshrinet/pystokes/wiki/Gallery). This repository also has has an automated testing of PyPI version of PyStokes and PyRoss using GitHub workflows. 
+This repository contains images and .gif files generated using code available on my [GitHub profile](https://github.com/rajeshrinet). These have been included here to embed in web pages and blogs. include .gif files of various published works. These are showcased in the [PyStokes gallery](https://github.com/rajeshrinet/pystokes/wiki/Gallery). 
 
+This repository also has automated testing of PyPI versions of my following libraries:
+* [PyStokes](https://github.com/rajeshrinet/pystokes)
+* [PyRoss](https://github.com/rajeshrinet/pyross)
